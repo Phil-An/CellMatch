@@ -40,6 +40,10 @@ The script [InVivo_Align_CaImagingSessions.m](https://github.com/Phil-An/CellMat
 ## Processing of histology data
 [Volumetric laser confocal microscope scans](https://github.com/Phil-An/CellMatch/tree/main/Data/Post%20hoc%20histology) are provided within the sample data. Histology was not labeled with antibodies and endogenous Green fluorescence protein (GFP) signals from the Calciun indicator GCaMP6f were scanned. Histology imaging data is processed within [Main.m](https://github.com/Phil-An/CellMatch/blob/main/Main.m). 
 
+Image stacks from volumetric histology scans are loaded using [load_histology_imagestack.m](https://github.com/Phil-An/CellMatch/blob/main/functions/load_histology_imagestack.m). A new window opens, allowing to select all images belonging to the scan of the first histology section. You can select multiple images by using clicking the while pressing the [Shift] button. When you are done with selecting the images click Open to proceed selecting the scanned images of histology section 2. You can repeat the steps until you loaded the images of all histology sections. When done, press cancel to proceed loading the selected files.
+
+![Loading histology images](https://github.com/Phil-An/CellMatch/blob/main/manual/load_histology_images.png)
+
 If you performed co-labeling of neurons in histology, you must export z-stacks of all channels separately and load them within [Main.m](https://github.com/Phil-An/CellMatch/blob/main/Main.m). All transformations must then also be applied to the data structures of histology channel 2. When you assess the expression of fluorescent markers of matched cells using [plot_interactive_identifiedcells.m](https://github.com/Phil-An/CellMatch/blob/main/functions/plot_interactive_identifiedcells.m), you can switch the displayed channels of the histology scans. 
 
 ## <a id="ca2+data"></a> Structure of *in vivo* Ca2+ imaging data 
