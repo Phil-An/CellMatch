@@ -67,6 +67,10 @@ Further, a final [experiment](https://github.com/Phil-An/CellMatch/tree/main/Dat
 2. [mean-native.tif](https://github.com/Phil-An/CellMatch/blob/main/Data/In%20vivo%20Ca2%2B/1912-DSA/JP68-1912-mean-native.tif) is a mean intensity projection image of the recording acquired prior to the injection of the fluorescent dye.
 3. [maxIP-CE.tif](https://github.com/Phil-An/CellMatch/blob/main/Data/In%20vivo%20Ca2%2B/1912-DSA/JP68-1912-MaxIP_CE.tif) is a standard deviation projection image of the recording acquired following the injection of the fluorescent dye.
 
+# Questions, comments, issues
+If you have any questions and comments, please use Github discussions and I will answer as soon as possible. If you find any bugs, please create an issue. 
+
+
 # License 
 This program is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license. Non-commercial use of the software is free.
 
