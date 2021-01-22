@@ -1,10 +1,9 @@
-cd('C:\Users\Philip\Documents\MATLAB\new\CellMatch')
-% Add all sub-folders
-%ddpath(genpath('./'))
+% Please do not forget to download required 3rd party software described in
+% README.md
 
+% Add required folders
 addpath('./')
-addpath('./functions')
-addpath(genpath('C:\Users\Philip\Documents\MATLAB\CellMatch\functions\3rd party'))
+
 % Load manually derived parameters for the Sample data
 load('Sampledata.mat')
 %% Process in vivo Ca2+ imaging data
